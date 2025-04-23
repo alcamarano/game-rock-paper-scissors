@@ -4,12 +4,15 @@ const btScissors = document.getElementById("btScissors");
 const result = document.getElementById("result");
 const userScore = document.getElementById("userScore");
 const computerScore = document.getElementById("computerScore");
+const drawScore = document.getElementById("drawScore");
 
 let uScore = 0;
 let cScore = 0;
+let dScore = 0;
 
 userScore.textContent = uScore;
 computerScore.textContent = cScore;
+drawScore.textContent = dScore;
 
 function compChoice() {
     const choices = ["pedra", "papel", "tesoura"];
@@ -20,6 +23,8 @@ function compChoice() {
 function playGame(userChoice, computerChoice) {
     result.classList.remove("win", "lose", "draw");
     if (userChoice === computerChoice) {
+        dScore++;
+        drawScore.textContent = dScore;
         result.classList.add("draw");
         return "Empate! Ambos escolheram " + userChoice;
     }
