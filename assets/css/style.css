@@ -56,3 +56,17 @@
 .draw {
     color: #2196f3;
 }
+
+@media (max-width: 500px) {
+    body {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .section__div-btn button {
+        width: 60px;
+        height: 60px;
+        font-size: 1.6rem;
+    }
+}
