@@ -30,7 +30,7 @@ Este é um jogo clássico de **Pedra, Papel e Tesoura**, desenvolvido com **HTML
 
 ## 🕹️ Jogue agora
 
-Quer testar suas habilidades contra o computador? <a href="">Clique aqui</a> para jogar diretamente do seu navegador
+Quer testar suas habilidades contra o computador? <a href="https://game-rock-paper-scissors-sigma.vercel.app/">Clique aqui</a> para jogar diretamente do seu navegador
 
 ## 📄 Licença
 
