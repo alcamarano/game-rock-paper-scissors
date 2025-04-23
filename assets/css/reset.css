@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    user-select: none;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-color: #ebebeb;
+    margin: 100px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+html {
+    font-family: "Ubuntu", sans-serif;
+}
