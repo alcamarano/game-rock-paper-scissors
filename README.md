@@ -15,6 +15,7 @@ Este é um jogo clássico de **Pedra, Papel e Tesoura**, desenvolvido com **HTML
 - 👆 Botões com ícones de fácil interação
 - 🟢 Feedback visual com cores (vitória, derrota ou empate)
 - 📊 Placar em tempo real (pontuação do usuário, do computador e empates)
+- 🔄 Botão para reiniciar o jogo
 - 📱 Layout simples e responsivo
 
 ## 🧠 O que foi praticado
