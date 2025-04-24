@@ -57,6 +57,17 @@
     color: #2196f3;
 }
 
+.section__bt-reset {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #171717;
+    font-size: 1.2rem;
+    color: #FFF;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
 @media (max-width: 500px) {
     body {
         padding: 0px 20px;
