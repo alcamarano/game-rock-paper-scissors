@@ -5,6 +5,7 @@ const result = document.getElementById("result");
 const userScore = document.getElementById("userScore");
 const computerScore = document.getElementById("computerScore");
 const drawScore = document.getElementById("drawScore");
+const btReset = document.getElementById("btReset");
 
 let uScore = 0;
 let cScore = 0;
@@ -57,4 +58,8 @@ btPaper.addEventListener("click", () => {
 btScissors.addEventListener("click", () => {
     const computerChoice = compChoice();
     result.textContent = playGame("tesoura", computerChoice);
+})
+
+btReset.addEventListener("click", () => {
+    location.reload();
 })
